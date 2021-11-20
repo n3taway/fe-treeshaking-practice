@@ -1,0 +1,17 @@
+{
+  "name": "test0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup --config rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.60.0"
+  },
+  "type": "module"
+}
